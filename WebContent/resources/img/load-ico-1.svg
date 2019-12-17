@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
+    <g fill="none" fill-rule="evenodd" transform="translate(0 .777)">
+        <path fill="#2E91FF" fill-rule="nonzero" d="M21.945 20.905h-20.9a1.045 1.045 0 1 0 0 2.09h20.9a1.045 1.045 0 1 0 0-2.09zM2.351 18.187a1.045 1.045 0 1 0 0 2.091H20.64a1.045 1.045 0 0 0 0-2.09h-.261V8.781h.26a.522.522 0 1 0 0-1.045H2.352a.522.522 0 1 0 0 1.045h.262v9.405H2.35zm15.936-9.405v9.405h-3.134V8.782h3.134zm-5.225 0v9.405H9.927V8.782h3.135zm-8.36 0h3.135v9.405H4.702V8.782z"/>
+        <circle cx="19.595" cy="20.278" r="5.91" fill="#FFF"/>
+        <rect width="1.4" height="5" x="18.895" y="17.778" fill="#2E91FF" rx=".7"/>
+        <rect width="1.4" height="5" x="18.895" y="17.778" fill="#2E91FF" rx=".7" transform="rotate(-90 19.595 20.278)"/>
+        <circle cx="19.595" cy="20.278" r="4.437" stroke="#2E91FF" stroke-width="1.5"/>
+        <path fill="#2E91FF" fill-rule="nonzero" d="M1.045 6.798h20.91a1.045 1.045 0 0 0 .34-2.035L11.924.097a1.047 1.047 0 0 0-.858 0L.617 4.8a1.045 1.045 0 0 0 .428 1.998z"/>
+    </g>
+</svg>

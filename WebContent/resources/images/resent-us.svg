@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+    <defs>
+        <circle id="a" cx="12.5" cy="12.5" r="12.454"/>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F0F0F0"/>
+        </linearGradient>
+        <path id="d" d="M1.406 3.333a.833.833 0 1 1 0-1.666.833.833 0 0 1 0 1.666zm3.334 0a.833.833 0 1 1 0-1.666.833.833 0 0 1 0 1.666zm3.333 0a.833.833 0 1 1 0-1.666.833.833 0 0 1 0 1.666zm3.333 0a.833.833 0 1 1 0-1.666.833.833 0 0 1 0 1.666zM3.073 5a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zm3.333 0a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zM9.74 5a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zm1.666 1.667a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zm-3.333 0a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zm-3.333 0A.833.833 0 1 1 4.74 5a.833.833 0 0 1 0 1.667zm-3.334 0a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zm1.667 1.666a.833.833 0 1 1 0-1.666.833.833 0 0 1 0 1.666zm3.333 0a.833.833 0 1 1 0-1.666.833.833 0 0 1 0 1.666zm3.334 0a.833.833 0 1 1 0-1.666.833.833 0 0 1 0 1.666zM11.406 10a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zm-3.333 0a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zM4.74 10a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667zm-3.334 0a.833.833 0 1 1 0-1.667.833.833 0 0 1 0 1.667z"/>
+        <filter id="c" width="108.6%" height="124%" x="-4.3%" y="-6%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" opacity=".9" transform="translate(.5 .741)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <path fill="#D02F44" d="M-1.094 0h35v1.667h-35V0zm0 3.333h35V5h-35V3.333zm0 3.334h35v1.666h-35V6.667zm0 3.333h35v1.667h-35V10zm0 3.333h35V15h-35v-1.667zm0 3.334h35v1.666h-35v-1.666zm0 3.333h35v1.667h-35V20zm0 3.333h35V25h-35v-1.667z" mask="url(#b)"/>
+        <path fill="#46467F" d="M-1.094 0h15v11.667h-15z" mask="url(#b)"/>
+        <g mask="url(#b)">
+            <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+            <use fill="url(#e)" xlink:href="#d"/>
+        </g>
+    </g>
+</svg>

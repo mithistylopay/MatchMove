@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+    <defs>
+        <circle id="a" cx="12.5" cy="12.5" r="12.454"/>
+        <rect id="c" width="35" height="25" rx="2"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" opacity=".9" transform="translate(.5 .865)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <g transform="translate(-5)">
+                <mask id="d" fill="#fff">
+                    <use xlink:href="#c"/>
+                </mask>
+                <use fill="#FFF" xlink:href="#c"/>
+                <path fill="#156DD1" d="M0 0h35v13.333H0z" mask="url(#d)"/>
+                <path fill="#FFD948" d="M0 13.333h35V25H0z" mask="url(#d)"/>
+            </g>
+        </g>
+    </g>
+</svg>

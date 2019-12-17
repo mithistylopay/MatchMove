@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Medium.eot');
+    src: url('fonts/Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-Medium.woff2') format('woff2'),
+        url('fonts/Avenir-Medium.woff') format('woff'),
+        url('fonts/Avenir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Roman.eot');
+    src: url('fonts/Avenir-Roman.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-Roman.woff2') format('woff2'),
+        url('fonts/Avenir-Roman.woff') format('woff'),
+        url('fonts/Avenir-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirNextCyr-Thin.eot');
+    src: url('fonts/AvenirNextCyr-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextCyr-Thin.woff2') format('woff2'),
+        url('fonts/AvenirNextCyr-Thin.woff') format('woff'),
+        url('fonts/AvenirNextCyr-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}

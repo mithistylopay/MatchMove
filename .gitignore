@@ -1,0 +1,7 @@
+lib/
+output/
+.settings/
+build/
+
+.classpath
+.project
