@@ -3312,6 +3312,48 @@ public class MatchMoveController {
 					}
 					return response;
 				}
+				
+
+				@RequestMapping(value = "/updatePersonalInfo", method = RequestMethod.POST)
+								@ResponseBody
+								public String updatePersonalInfo(@RequestParam("updatedEmail") String updatedEmail) throws SQLException, JSONException {
+								  
+								 String newEmail = updatedEmail;
+								 
+								 System.out.println("newEmail: " + newEmail);
+								  
+								 UpdatePersonalInfo updatePersonalInfo = new UpdatePersonalInfo();
+								 String updatePersonalInfoRes = updatePersonalInfo.updatePersonalDetails(email, newEmail);
+								 
+								  return updatePersonalInfoRes;
+							  }
+							 
+							 
+							 @RequestMapping(value = "/updateAddressInfo", method = RequestMethod.POST)
+								@ResponseBody
+								public String updateAddressInfo(@RequestParam("updateAddress1") String updateAddress1, @RequestParam("updateAddress2") String updateAddress2, @RequestParam("updateCity") String updateCity, @RequestParam("updateZip") String updateZip, @RequestParam("updateState") String updateState, @RequestParam("updateCountry") String updateCountry, @RequestParam("updateBillingAddress1") String updateBillingAddress1, @RequestParam("updateBillingAddress2") String updateBillingAddress2, @RequestParam("updateBillingCity") String updateBillingCity, @RequestParam("updateBillingZip") String updateBillingZip, @RequestParam("updateBillingState") String updateBillingState, @RequestParam("updateBillingCountry") String updateBillingCountry) throws SQLException, JSONException {
+								  
+								 String newAddress1 = updateAddress1;
+								 String newAddress2 = updateAddress2;
+								 String newCity = updateCity;
+								 String newZip = updateZip;
+								 String newState = updateState;
+								 String newCountryId = updateCountry;
+								 
+								 String newBillingAddress1 = updateBillingAddress1;
+								 String newBillingAddress2 = updateBillingAddress2;
+								 String newBillingCity = updateBillingCity;
+								 String newBillingZip = updateBillingZip;
+								 String newBillingState = updateBillingState;
+								 String newBillingCountryId = updateBillingCountry;
+								 
+								 System.out.println("newAddress1: " + newAddress1);
+								  
+								 UpdateAddressInfo updateAddressInfo = new UpdateAddressInfo();
+								 String updateAddressInfoRes = updateAddressInfo.updateAddressDetails(email, newAddress1, newAddress2, newCity, newZip, newState, newCountryId, newBillingAddress1, newBillingAddress2, newBillingCity, newBillingZip, newBillingState, newBillingCountryId);
+								 
+								  return updateAddressInfoRes;
+							  }
  
 }
 
